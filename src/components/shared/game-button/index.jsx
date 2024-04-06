@@ -87,7 +87,7 @@ export const GameButton = (props) => {
         {props.mode && (
           <span
             className={
-              'absolute -top-6 -right-3 text-white text-xs p-2 rounded-lg border-2 border-black border-l-0 border-t-0 group-hover:hidden' +
+              'z-10 absolute -top-6 -right-3 text-white text-xs p-2 rounded-lg border-2 border-black border-l-0 border-t-0 group-hover:hidden' +
               ' ' +
               modeColor
             }
