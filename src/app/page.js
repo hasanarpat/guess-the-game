@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className='w-full h-full'>
       <section className='flex flex-wrap items-center justify-center gap-6 w-[80%] mx-auto md:w-full'>
-        <div className='h-[580px] min-w-[300px] xl:min-w-[360px] bg-gray-300/30 rounded-2xl shadow-[0_10px_100px_rgba(0,0,0,.7)] relative pt-12 px-8 flex flex-col gap-10'>
+        <div className='h-[580px] min-w-[300px] xl:min-w-[360px] bg-gray-700/30 rounded-2xl shadow-[0_10px_100px_rgba(0,0,0,.7)] relative pt-12 px-8 flex flex-col gap-10'>
           <div className='absolute -top-3 left-0 right-0 w-[90%] mx-auto text-lg text-black bg-white rounded-xl flex items-center gap-2 p-2 py-0'>
             <span className='w-full py-1 text-justify px-2 text-[17px]'>
               <FaCalendarDay className='inline mr-1 text-xl' />
@@ -52,7 +52,7 @@ export default function Home() {
             description='Oyunu kapağından bil'
           />
         </div>
-        <div className='h-[580px] min-w-[300px] xl:min-w-[360px] bg-gray-300/30 rounded-2xl shadow-[0_10px_100px_rgba(0,0,0,.7)] relative pt-12 px-8 flex flex-col gap-10'>
+        <div className='h-[580px] min-w-[300px] xl:min-w-[360px] bg-gray-700/30 rounded-2xl shadow-[0_10px_100px_rgba(0,0,0,.7)] relative pt-12 px-8 flex flex-col gap-10'>
           <div className='absolute -top-3 left-0 right-0 w-[90%] mx-auto text-lg text-black bg-white rounded-xl flex items-center gap-2 p-2 py-0'>
             <span className='w-full py-1 text-justify px-2 text-[17px]'>
               <IoMdInfinite className='inline mr-1 text-xl' />
@@ -76,7 +76,7 @@ export default function Home() {
             background='game'
           />
         </div>
-        <div className='h-[580px] min-w-[300px] xl:min-w-[360px] bg-gray-300/30 rounded-2xl shadow-[0_10px_100px_rgba(0,0,0,.7)] relative pt-12 px-8 flex flex-col gap-10'>
+        <div className='h-[580px] min-w-[300px] xl:min-w-[360px] bg-gray-700/30 rounded-2xl shadow-[0_10px_100px_rgba(0,0,0,.7)] relative pt-12 px-8 flex flex-col gap-10'>
           <div className='absolute -top-3 left-0 right-0 w-[90%] mx-auto text-lg text-black bg-white rounded-xl flex items-center gap-2 p-2 py-0'>
             <span className='w-full py-1 text-justify px-2 text-[17px]'>
               <FaCalendarAlt className='inline mr-1 text-xl' />
